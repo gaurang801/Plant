@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+
+            background-color: rgb(11, 11, 60);
+            color: white;
+            font-family: 'poppins', sans-serif;
+
+        }
+
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgba(126, 17, 251, 0.812);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+
+            list-style: none;
+            margin: 0 23px;
+
+        }
+        nav ul li a{
+
+            text-decoration:  none;
+            color: white;
+
+        }
+       
+        .left {
+            font-size: 1.5rem;
+        }
+
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 100px 0;
+        }
+
+        .leftsection {
+            /* background-color: red; */
+            font-size: 2.6rem;
+            margin: 100px;
+            /* width: 50px; */
+        }
+
+        .rightsection img {
+
+                width: 78%;
+    margin: 41px -144px;
+            ;
+        }
+
+        .firstsection>div {
+            width: 35%;
+        }
+
+
+        .purple {
+            color: rgb(242, 162, 59);
+        }
+
+
+        #about{
+            font-size: medium;
+        }
+
+
+        .keyfont{
+            font-size: 2rem;
+        }
+        .wiki{
+            color: white;
+            font-size: medium;
+
+        }
+
+#element{
+    color: yellow;
+}
+
+
+#key{
+    width: 50%;
+    margin-left: 11%;
+    /* display:flex;
+    justify-content: center ;
+    align-items: center; */
+}
+
+#section a{
+     margin-right: 11%;
+     
+}
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left"> Codiaeum Variegation </div>
+           
+            <div class="right">
+
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <span class="purple"> Codiaeum Variegation</span>
+                <div> Also Known as </div>
+                <span id="element"></span>
+                <div>   <br></div>
+                <div id="about">
+                    <p><b>Scientific Name:</b> Codiaeum variegatum <br>
+<b>Common Name:</b> Croton Petra <br> 
+<b>Family:</b>      Euphorbiaceae <br>
+<b>Type:</b>        Evergreen shrub <br> 
+<b>Origin:</b>       Southeast Asia and Pacific Islands <br> </p></div>
+            </div>
+            <div class="rightsection">
+                <img src="croton.png.png" alt="style">
+                
+
+            </div>
+
+
+
+
+        </section>
+
+        <section id="key">
+         <b class="keyfont">Key Features</b>
+
+         <p>
+            <b>Leaves: </b>Bright, multi-colored (yellow, red, orange, green), glossy, and leathery. <br>
+
+<b>Height:</b> Grows up to 3-6 feet indoors; taller outdoors. <br>
+
+<b>Light Requirement:</b> Needs bright indirect sunlight. Some direct morning sun is fine. <br>
+
+<b>Watering:</b> Keep the soil moist but not soggy. Let the top inch of soil dry before watering again. <br>
+
+<b>Soil:</b> Well-draining potting mix with peat and perlite. <br>
+
+<b>Temperature: </b>Prefers 18°C to 30°C. Sensitive to cold and drafts. <br>
+
+<b>Humidity:</b> Loves high humidity. Mist the leaves or use a humidifier <br>
+         </p>
+         <div> <br> <br></div>
+
+<b class="keyfont"> 🌱 Care tips</b>
+<p>
+    
+Do not move it frequently; it can drop leaves. <br>
+
+Wipe leaves regularly to keep them dust-free. <br>
+
+Fertilize every 4-6 weeks during growing season (spring/summer). <br>
+
+Toxic to pets and humans if ingested. <br>
+</p>
+<div> <br>
+
+<br>
+</div>
+
+   <a class="wiki" href="https://en.wikipedia.org/wiki/Codiaeum_variegatum">View More</a>
+        </section>
+
+
+     
+    </main>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<!-- Setup and start animation! -->
+<script>
+var typed = new Typed('#element', {
+strings: ['  Croton Petra ','क्रोटन पेट्रा'],
+
+typeSpeed: 50,
+backSpeed: 40,
+loop: true
+});
+</script>
+
+</body>
+
+</html>
